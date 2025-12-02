@@ -24,7 +24,7 @@ const config = Object.freeze({
   BOT_NAME: env.BOT_NAME || '水餃幫機器人',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || '當人類呼叫你的時候才能回答，呼叫指令是@水餃幫Ai',
   BOT_TONE: env.BOT_TONE || '',
-  BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || false,
+  BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'false' || true,
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
   VERCEL_TIMEOUT: env.VERCEL_TIMEOUT || env.APP_API_TIMEOUT,
